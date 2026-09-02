@@ -7,24 +7,28 @@ import UpdateArrUseState from "./components/UpdateArrUseState";
 import UseEffectDemo from "./components/UseEffectDemo";
 import { UserProvider } from "./components/ProfileContext/ProfileContext";
 import MyProfile from "./components/MyProfile";
+import LoginPage from "./components/LoginPage";
+import React from "react";
+
 const App = () => {
   return (
-    <UserProvider>
-      {/* Using the children prop to render content inside the Blog component*/}
-      {/* <Blog>
-        <h1>Welcome to My Blog</h1>
-        <p>This is a simple blog component.</p>
-        <p>Feel free to explore and read the articles!</p>
-      </Blog> */}
-      {/* how to change object field using on onChangeHandler function  */}
-      {/* <ObjectChangeUseState /> */}
-      {/* how to update array using useState hook */}
-      {/* <UpdateArrUseState /> */}
-      {/* <UseEffectDemo /> */}
-      {/* <FetchDataUseEffect /> */}
-      {/* <DemoCreateContext /> */}
-      <MyProfile />
-    </UserProvider>
+    // <UserProvider>
+    //   {/* Using the children prop to render content inside the Blog component*/}
+    //   {/* <Blog>
+    //     <h1>Welcome to My Blog</h1>
+    //     <p>This is a simple blog component.</p>
+    //     <p>Feel free to explore and read the articles!</p>
+    //   </Blog> */}
+    //   {/* how to change object field using on onChangeHandler function  */}
+    //   {/* <ObjectChangeUseState /> */}
+    //   {/* how to update array using useState hook */}
+    //   {/* <UpdateArrUseState /> */}
+    //   {/* <UseEffectDemo /> */}
+    //   {/* <FetchDataUseEffect /> */}
+    //   {/* <DemoCreateContext /> */}
+    //   <MyProfile />
+    // </UserProvider>
+    <LoginPage/>
   );
 };
 
